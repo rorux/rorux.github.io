@@ -1815,13 +1815,14 @@ body {
     .video-txt-title {
         display: none;
     }
-    .video-txt-title {
+    .mobile-devices {
         background-image: none;
     }
     .mobile-devices-list {
         margin: 0;
         width: 90%;
         min-height: auto;
+        padding: 0 20px;
     }
     .examples-h2 {
         text-align: center;
