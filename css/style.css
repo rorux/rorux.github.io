@@ -1618,6 +1618,9 @@ body {
     .main-footer-bottom-left {
         margin-bottom: 20px;
     }
+    .examples-items > div:nth-child(3n) {
+        margin: 0 20px 20px 0;
+    }
 }
 
 @media (max-width: 768px) {
