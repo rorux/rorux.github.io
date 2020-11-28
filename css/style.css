@@ -1604,9 +1604,6 @@ body {
         font-size: 16px;
     }
 
-    .examples-items > div:nth-child(3n), .recent-posts-wrap > div:nth-child(3n) {
-        margin: 0 20px 20px 0;
-    }
     .partners img {
         width: 20%;
         height: auto;
@@ -1770,8 +1767,6 @@ body {
         
     }
 
-    
-
     .statistics {
         padding: 40px 30px 10px;
         flex-wrap: wrap
@@ -1813,4 +1808,23 @@ body {
     .main-footer-top {
         display: none;
     }
+}
+
+@media (max-width: 430px) {
+
+    .video-txt-title {
+        display: none;
+    }
+    .video-txt-title {
+        background-image: none;
+    }
+    .mobile-devices-list {
+        margin: 0;
+        width: 90%;
+        min-height: auto;
+    }
+    .examples-h2 {
+        text-align: center;
+    }
+
 }
